@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Column_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Database_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Savepoint_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Backup_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Transaction_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VariadicBind_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecuteMany_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tests">
+      <UniqueIdentifier>{5AD0856A-F412-3582-A496-C1A2448B68E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

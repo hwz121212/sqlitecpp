@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLiteCpp_example1", "demo\examples\example1\SQLiteCpp_example1.vcxproj", "{98B1585F-2587-3EC3-9D90-79E6055D3E5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{65D94C70-F385-3800-BE86-2DFF313ED2DE} = {65D94C70-F385-3800-BE86-2DFF313ED2DE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLiteCpp_tests", "demo\tests\SQLiteCpp_tests.vcxproj", "{030B5175-CD16-3FF3-A298-4162E4024C24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{65D94C70-F385-3800-BE86-2DFF313ED2DE} = {65D94C70-F385-3800-BE86-2DFF313ED2DE}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{D8225072-733B-4271-860D-0DBAEE5CBD2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{509F977F-5BD6-4A2A-9CA3-A6EEA13AF2CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsqlite3", "thirdparty\sqlite-3.38.5\libsqlite3.vcxproj", "{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsqlitecpp", "thirdparty\sqlitecpp-3.1.1\libsqlitecpp.vcxproj", "{65D94C70-F385-3800-BE86-2DFF313ED2DE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538} = {A78DCBC4-077B-4884-A7F4-D9AF70EDB538}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02A4686F-5FFD-4943-9551-94A7D4749ED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{829A41B5-9DC7-44E9-BE97-F4FCA89F95FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_dll", "thirdparty\gtest-1.7.0\src\gtest_dll.vcxproj", "{6F2E8DD5-93AB-37EF-B982-13D14C8EBF61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLiteCpp_example2", "demo\examples\example2\SQLiteCpp_example2.vcxproj", "{F916099C-2046-4524-A7C1-2D839ABBB5CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B1585F-2587-3EC3-9D90-79E6055D3E5F}.Debug|x64.ActiveCfg = Debug|x64
+		{98B1585F-2587-3EC3-9D90-79E6055D3E5F}.Debug|x64.Build.0 = Debug|x64
+		{98B1585F-2587-3EC3-9D90-79E6055D3E5F}.Release|x64.ActiveCfg = Release|x64
+		{98B1585F-2587-3EC3-9D90-79E6055D3E5F}.Release|x64.Build.0 = Release|x64
+		{030B5175-CD16-3FF3-A298-4162E4024C24}.Debug|x64.ActiveCfg = Debug|x64
+		{030B5175-CD16-3FF3-A298-4162E4024C24}.Debug|x64.Build.0 = Debug|x64
+		{030B5175-CD16-3FF3-A298-4162E4024C24}.Release|x64.ActiveCfg = Release|x64
+		{030B5175-CD16-3FF3-A298-4162E4024C24}.Release|x64.Build.0 = Release|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Debug|x64.ActiveCfg = Debug|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Debug|x64.Build.0 = Debug|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Release|x64.ActiveCfg = Release|x64
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}.Release|x64.Build.0 = Release|x64
+		{65D94C70-F385-3800-BE86-2DFF313ED2DE}.Debug|x64.ActiveCfg = Debug|x64
+		{65D94C70-F385-3800-BE86-2DFF313ED2DE}.Debug|x64.Build.0 = Debug|x64
+		{65D94C70-F385-3800-BE86-2DFF313ED2DE}.Release|x64.ActiveCfg = Release|x64
+		{65D94C70-F385-3800-BE86-2DFF313ED2DE}.Release|x64.Build.0 = Release|x64
+		{6F2E8DD5-93AB-37EF-B982-13D14C8EBF61}.Debug|x64.ActiveCfg = Debug|x64
+		{6F2E8DD5-93AB-37EF-B982-13D14C8EBF61}.Debug|x64.Build.0 = Debug|x64
+		{6F2E8DD5-93AB-37EF-B982-13D14C8EBF61}.Release|x64.ActiveCfg = Release|x64
+		{6F2E8DD5-93AB-37EF-B982-13D14C8EBF61}.Release|x64.Build.0 = Release|x64
+		{F916099C-2046-4524-A7C1-2D839ABBB5CE}.Debug|x64.ActiveCfg = Debug|x64
+		{F916099C-2046-4524-A7C1-2D839ABBB5CE}.Debug|x64.Build.0 = Debug|x64
+		{F916099C-2046-4524-A7C1-2D839ABBB5CE}.Release|x64.ActiveCfg = Release|x64
+		{F916099C-2046-4524-A7C1-2D839ABBB5CE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98B1585F-2587-3EC3-9D90-79E6055D3E5F} = {829A41B5-9DC7-44E9-BE97-F4FCA89F95FE}
+		{030B5175-CD16-3FF3-A298-4162E4024C24} = {02A4686F-5FFD-4943-9551-94A7D4749ED7}
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538} = {D8225072-733B-4271-860D-0DBAEE5CBD2F}
+		{65D94C70-F385-3800-BE86-2DFF313ED2DE} = {D8225072-733B-4271-860D-0DBAEE5CBD2F}
+		{02A4686F-5FFD-4943-9551-94A7D4749ED7} = {509F977F-5BD6-4A2A-9CA3-A6EEA13AF2CF}
+		{829A41B5-9DC7-44E9-BE97-F4FCA89F95FE} = {509F977F-5BD6-4A2A-9CA3-A6EEA13AF2CF}
+		{6F2E8DD5-93AB-37EF-B982-13D14C8EBF61} = {D8225072-733B-4271-860D-0DBAEE5CBD2F}
+		{F916099C-2046-4524-A7C1-2D839ABBB5CE} = {829A41B5-9DC7-44E9-BE97-F4FCA89F95FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1DDD02D-C6F0-3C72-9D3C-9502E1AC3E6D}
+	EndGlobalSection
+EndGlobal
