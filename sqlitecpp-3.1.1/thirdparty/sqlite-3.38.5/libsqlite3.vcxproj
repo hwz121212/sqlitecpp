@@ -67,7 +67,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_LIB;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_ENABLE_COLUMN_METADATA;_DEBUG;_LIB;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -83,7 +83,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_LIB;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SQLITE_ENABLE_COLUMN_METADATA;NDEBUG;_LIB;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
